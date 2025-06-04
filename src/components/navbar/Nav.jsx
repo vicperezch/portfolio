@@ -6,7 +6,7 @@ export default function Nav() {
 	const buttons = []
 
 	for (let i = 0; i < sections.length; i++) {
-		buttons.push(<li><NavButton text={sections[i]} ref={"#"} /></li>)
+		buttons.push(<li key={i}><NavButton text={sections[i]} ref={"#"} /></li>)
 	}
 
 	return (

@@ -1,0 +1,17 @@
+button {
+	font-family: "Poppins";
+	font-weight: 700;
+	text-shadow: 0 4px 4px rgb(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	border-radius: 24px;
+	padding: 10px 20px;
+}
+
+.primary-button {
+	background-color: var(--main-color);
+}
+
+.secondary-button {
+	background-color: var(--secondary-color);
+}
