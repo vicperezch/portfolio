@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+h2 {
+	font-size: 4rem;
+}
+
 strong {
 	color: var(--main-color);
 }

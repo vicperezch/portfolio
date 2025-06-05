@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+}
+
 :root {
   font-family: "Poppins", sans-serif;
 	font-weight: 400;
@@ -20,10 +24,10 @@
 
 html {
 	height: 100dvh;
+	scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
   display: flex;
   place-items: center;
   width: 100%;
@@ -31,7 +35,6 @@ body {
 }
 
 #root {
-	margin: 0;
 	padding: 0;
 	height: 100dvh;
 	width: 100%;

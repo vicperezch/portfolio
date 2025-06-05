@@ -1,0 +1,47 @@
+.skills {
+	max-height: 100dvh;
+	min-height: 100dvh;
+	height: 100dvh;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+}
+
+.skills > div:first-child {
+	height: 100%;
+	min-width: 0;
+	flex: 3 1 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1.5rem;
+}
+
+.skills > div:last-child {
+	height: 100%;
+	min-width: 0;
+	flex: 4 1 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills-container {
+	padding: 0;
+	padding: 15px;
+	width: 545px;
+	height: 405px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.skills-image {
+	max-width: 75%;
+	width: 75%;
+	height: auto;
+	object-fit: contain;
+}

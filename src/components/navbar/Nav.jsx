@@ -2,12 +2,16 @@ import NavButton from './NavButton.jsx'
 import './Nav.css'
 
 export default function Nav() {
-	const sections = ["Home", "About me", "Technologies", "Projects", "Contact"]
+	const sections = ["Home", "Skills", "Projects", "Education", "Contact"]
 	const buttons = []
 
-	for (let i = 0; i < sections.length; i++) {
-		buttons.push(<li key={i}><NavButton text={sections[i]} ref={"#"} /></li>)
-	}
+	sections.forEach((sec, i) => {
+		buttons.push(
+			<li key={i}>
+				<NavButton text={sec} ref={`#${sec.toLowerCase()}`}/>
+			</li>
+		)
+	})
 
 	return (
 		<nav>
