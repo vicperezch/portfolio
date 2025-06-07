@@ -1,0 +1,80 @@
+.project-card {
+	min-width: 500px;
+	width: 500px;
+	height: 325px;
+	max-width: 500px;
+	max-height: 325px;
+	box-sizing: border-box;
+	border-radius: 1rem;
+	perspective: 1000px;
+	overflow: hidden;
+}
+
+.inner-card {
+	background-color: rgba(57, 62, 70, 0.5);
+	position: relative;
+	height: 100%;
+	width: 100%;
+	transition: transform 0.5s;
+	transform-style: preserve-3d;
+	border-radius: 1rem;
+}
+
+.project-card:hover .inner-card {
+	transform: rotateX(180deg);
+}
+
+.card-front, .card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+	backface-visibility: hidden;
+	overflow: hidden;
+}
+
+.card-front {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-front > img {
+	width: 400px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 1rem;
+}
+
+.card-back {
+	box-sizing: border-box; 
+	transform: rotateX(180deg);
+	display: flex;
+	flex-direction: column;
+	color: white;
+	padding: 3rem;
+}
+
+.project-name {
+	font-weight: 700;	
+	font-size: 1.5rem;
+}
+
+.card-back > a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
+	text-decoration: none;
+	color: white;
+}
+
+.card-back > a:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.project-name + img {
+	width: 1.5rem;
+	height: 1.5rem;
+}
