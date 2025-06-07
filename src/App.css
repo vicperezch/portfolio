@@ -11,3 +11,7 @@ strong {
 	color: var(--main-color);
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}

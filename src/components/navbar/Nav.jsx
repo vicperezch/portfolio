@@ -2,7 +2,7 @@ import NavButton from './NavButton.jsx'
 import './Nav.css'
 
 export default function Nav() {
-	const sections = ["Home", "Skills", "Projects", "Education", "Contact"]
+	const sections = ["Home", "Skills", "Projects", "Contact"]
 	const buttons = []
 
 	sections.forEach((sec, i) => {

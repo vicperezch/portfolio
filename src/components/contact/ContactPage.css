@@ -1,0 +1,51 @@
+.contact {
+	height: 25dvh;
+	width: 100%;
+}
+
+.info {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.info > img {
+	width: 30px;
+	height: 30px;
+	margin-right: 0.5rem;
+}
+
+.socials {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: start;
+	gap: 1rem;
+}
+
+.socials > a {
+	box-sizing: border-box;
+	border-radius: 100%;
+	background-color: var(--secondary-color);
+	height: 60px;
+	width: 60px;
+	padding: 10px;
+}
+
+.socials > a:hover {
+	background-color: var(--main-color);
+}
+
+.socials > a:active {
+	transform: scale(1.1);
+}
+
+a > img {
+	width: 40px;
+	height: 40px;
+}
