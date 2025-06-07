@@ -14,8 +14,7 @@ export default function HomePage() {
 					videogames enthusiast. My strongest skills are problem solving and teamwork.
 				</p>
 				<div className="button-area">
-					<Button text="Learn more about me" onClickFunc={ () => {} } />
-					<Button variant="secondary" text="Download my CV" onClickFunc={ () => {} } />
+					<Button text="Download my CV" link="CV - Víctor Pérez.pdf" />
 				</div>
 			</div>
 			<div>

@@ -14,7 +14,7 @@ export default function ProjectsPage() {
 					frontend, both containerized with Docker for easy deployment. The backend provides a secure,
 					modular API that handles business logic and database interactions, while the frontend consumes
 					this API to deliver a dynamic, responsive user experience."
-					image="/dapa.png"
+					image="dapa.png"
 					link={githubBase + "dapa-backend"} />
 				<ProjectCard 
 					title="Series tracker"
@@ -22,7 +22,7 @@ export default function ProjectsPage() {
 					It provides CRUD operations for managing TV series, including endpoints for upvoting, downvoting,
 					updating watch status, and tracking episodes. The project includes Swagger UI for interactive API
 					documentation and is fully containerized with Docker."
-					image="/series.png"
+					image="series.png"
 					link={githubBase + "lab6-backend"} />
 				<ProjectCard 
 					title="Health REST API"
@@ -30,7 +30,7 @@ export default function ProjectsPage() {
 					It enables users to register, log in, browse doctor profiles, schedule appointments, and receive medical notes.
 					Built with Spring Boot and Maven, the backend is structured for scalability, supporting secure user authentication
 					and efficient data management."
-					image="/directhealth.png"
+					image="directhealth.png"
 					link={githubBase + "DirectHealthAPI"} />
 			</ul>
 		</section>

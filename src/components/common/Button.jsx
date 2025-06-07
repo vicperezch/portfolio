@@ -1,9 +1,9 @@
 import './Button.css'
 
-export default function Button({ variant="primary", text, onClickFunc }) {
+export default function Button({ variant="primary", text, link }) {
 	const style = variant === "primary" ? "primary-button" : "secondary-button"
 
 	return (
-		<button className={style} onClick={onClickFunc} >{ text }</button>
+		<a className={style + " portfolio-button"} href={link} target="_blank">{ text }</a>
 	)
 }

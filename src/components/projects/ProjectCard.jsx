@@ -10,7 +10,7 @@ export default function ProjectCard({ title, desc, image, link }) {
 				<div className="card-back">
 					<a href={link} target="_blank">
 						<p className="project-name">{ title }</p>
-						<img src="/link.png" alt="Link" />
+						<img src="link.png" alt="Link" />
 					</a>
 					<p classname="project-desc">{ desc }</p>
 				</div>
