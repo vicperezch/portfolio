@@ -4,13 +4,14 @@ import './HomePage.css'
 
 export default function HomePage() {
 	return (
-		<section className="home">
+		<section id="home" className="home">
 			<div>
 				<h1>BACKEND <strong>DEVELOPER</strong></h1>
 				<p className="desc">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum,
-					ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-					per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis
+					I'm Víctor, a developer passionate about designing robust, scalable APIs. I have experience
+					managing databases, and optimizing performance to deliver secure, efficient backend systems.
+					I'm proficient in Java, Go, Docker and SQL databases. Apart from coding, I'm a big math and 
+					videogames enthusiast. My strongest skills are problem solving and teamwork.
 				</p>
 				<div className="button-area">
 					<Button text="Learn more about me" onClickFunc={ () => {} } />
