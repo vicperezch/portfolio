@@ -17,15 +17,6 @@
 	row-gap: 1.5rem;
 }
 
-.skills > div:last-child {
-	height: 100%;
-	min-width: 0;
-	flex: 4 1 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .skills-container {
 	padding: 0;
 	padding: 15px;
@@ -42,4 +33,30 @@
 	width: 75%;
 	height: auto;
 	object-fit: contain;
+}
+
+@media (min-width: 768px) {
+	.skills > div:last-child {
+		height: 100%;
+		min-width: 0;
+		flex: 4 1 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.skills-container {
+		width: 320px;
+		height: 320px;
+		gap: 10px;
+	}
+}
+
+
+@media (max-width: 1200px) {
+	.skills > div:last-child {
+		display: none;
+	}
 }

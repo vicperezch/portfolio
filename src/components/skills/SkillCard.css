@@ -16,3 +16,19 @@
 	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 	transform: scale(1.1);
 }
+
+@media (max-width: 480px) {
+	.skill-card {
+		width: 100px;
+		height: 100px;
+		padding: 5px;
+	}
+
+	.skill-card > img {
+		width: 60px;
+	}
+
+	.skill-card > p {
+		font-size: 0.8rem;
+	}
+}

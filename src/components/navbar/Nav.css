@@ -12,6 +12,7 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 2px solid rgba(238, 238, 238, 0.1);
+	overflow: scroll;
 }
 
 .nav-buttons {

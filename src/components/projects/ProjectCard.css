@@ -31,6 +31,7 @@
 	border-radius: 1rem;
 	backface-visibility: hidden;
 	overflow: hidden;
+	transform: rotateX(0deg);
 }
 
 .card-front {
@@ -77,4 +78,21 @@
 .project-name + img {
 	width: 1.5rem;
 	height: 1.5rem;
+}
+
+@media (max-width: 480px) {
+	.project-card {
+		min-width: 380px;
+		height: 247px;
+		max-width: 380px;
+		max-height: 247px;
+	}
+
+	.card-front > img {
+		width: 304px;
+	}
+
+	.card-back {
+		padding: 2rem;
+	}
 }
